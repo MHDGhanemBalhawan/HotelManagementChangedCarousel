@@ -1,0 +1,107 @@
+﻿ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff6a00;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover:not(.active) {
+            background-color: #0094ff;
+        }
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+
+.topContainer /*navbar*/ {
+    flex-flow: column;
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-bottom: 5px;
+}
+
+
+html {
+    background-color: gray;
+}
+
+.ol
+{
+    padding-left:40%;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+
+
+.columnleft {
+    float: left;
+    width: 30%;
+    border: solid 1px black;
+    margin-top: 50px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 5px;
+    min-height: 490px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    border: solid 1px black;
+    margin-top: 50px;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: white;
+    margin-bottom: 5px;
+    min-height: 490px;
+}
+
+
+
+.clear {
+    clear: both;
+}
+
+#mycarousel {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    height: 300px;
+    margin: auto;
+}
+
+.row {
+    padding: 0px 0px 0px 0px;
+    float: none;
+    width: auto;
+}
+
+.footer {
+    background-color: #ff0000;
+    width: auto;
+}
